@@ -1,0 +1,32 @@
+--> User Service;
+
+1. user registration
+======================
+
+Request: 
+--------
+	Method : Post
+	Payload : 
+	{
+		"name": "MAHENDRA YADAV",
+		"mobileNo": "9755472257",
+		"emailId": "mahi.yadav149@gmail.com",
+		"type": "endUser"			
+		"address":[{
+			"state":"M.P.",
+			"city":"BHOPAL",
+			"area":"BARKHEDI",
+			"landmark":"NEAR SANTOSHI MATA MANDIR",
+			"pincode":"462008"
+		},
+		{
+			"state":"M.P.",
+			"city":"INDORE",
+			"area":"SUBHASH NAGAR",
+			"landmark":"PARDESHIPURA",
+			"pincode":"462023"
+		}]
+	}
+	
+	Response : "user registration successfully"
+
